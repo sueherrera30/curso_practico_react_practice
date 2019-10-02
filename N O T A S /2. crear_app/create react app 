@@ -1,0 +1,36 @@
+COMANDOS:
+NPX  - nos permitira crear una aplicación de react, 
+nos dará un boilerplate para poder empezar a trabajarlo.
+code . -> nos ayuda a abrir nuestra terminal.
+
+-------- npx create-react-app nombreDeProyecto-------------
+
+esto traera todooo lo que necesitamos para podrer trabajarlo.
+
+pwd  - donde estamos ubicados dentro de las terminal 
+ls - que carpetas tenemos .
+
+
+------npm run start --------
+nos permite ver nuestro proyecto. 
+
+ANALISIS DE ESTRUCTURA: 
+node modules, todas las dependencias que 
+necesitamos,debemos ignorarlas para que no se suban a producción.
+
+en public, van todas las cosas que seran visibnles, que se usaran a 
+publico.
+
+SRC: esta carpeta es la mas importante, donde se desarrolla 
+toda nuestra app.
+ahi vivrá APP.JS es en reaidad el que se va a visualizar en nuestro buscador. 
+ 
+service worker, que va a estar escuchando si nuestra app a cambiado o no.
+
+.gitignore -> Donde metemos a los archibos que no queremos subir a producción.
+
+PACKAGE JSON: configuración de nuestro proyecto.
+
+reed me -> documentación e instrcciones. 
+
+en SRC: crear components.

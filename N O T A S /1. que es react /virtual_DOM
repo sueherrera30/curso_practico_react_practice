@@ -1,0 +1,10 @@
+
+Herramienta usada pro react para darle velocidad y eficacia. 
+
+asi, tenemos una copia identica de lo que es DOM real.
+Pasa que el el DOM real, cada que refrescamos, se debian de caegar 
+cada uno de lso elementos  que componian  la página, pero con react, 
+esta copia de dom, tiene la capacidad de indentificar a cada uno de los elementos
+y saber cual fue el que se modifico.
+esto nos ayuda a tener un mejor performance y mayor velocidad.
+

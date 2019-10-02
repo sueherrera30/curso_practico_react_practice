@@ -1,0 +1,56 @@
+En SRC crear carpeta COMPONENTS:
+
+S T A T E F U L -> Este componente es conocido como
+la ESTRUCTURA DE CLASES nos va a permitir tener 
+CICLO DE VIDA Y ESTADO, siendo entonces en 
+componente mas robusto que tiene React.
+
+todos los elemementos o COMPONENTES DE REACT 
+deben escribirse con  M A Y U S C U L A  la primera letra.
+
+1.- Debemos importar react: 
+
+-------- import React, { Component } from 'react' -------
+
+este comoponente stateful, sera una clase, lo extendemos de
+Component (que importamos arriba) Y este vivirá la logica, 
+los ciclos de vida de nuestra app, los estados y los eventos.
+
+dentro estará RENDER vamos a empujar al html que vamos 
+a empujar a nuestra app.
+
+este componente tiene acceso a un CONSTRUCTOR que puede 
+recibir las PROPS como parametro, ahi se van a inicializar 
+con SUPER() pasandolas como parametros -> super(props)
+
+aqui tambien podemos hacer los BIND y podemos ASIGNAR ESTADOS.
+
+estado lo asignamos como objeto: 
+this.state = {
+        hello: 'Hola mundo'
+}
+
+asip odremos hacer referencia de estado en el render. 
+como {this.state.hello}
+
+no olvidemos exportarlo.
+
+S T A T E L E S S  component: 
+
+No depende de tener un estado o un cilo de vida, sino que solo va a presentar 
+la logica, son un poquito mas utilizados, trabajan con pa larte funcional,
+son funciones y nos permite enfocarnos solo en un funcionalidad.
+aqui no se va a importar a component, no se necesita.
+
+usaremos funciones para crearlos, si le queremos dar nombre, vamos a guardar una function 
+arrow dentro de una constante.
+directamnte voy a RETORNAR el html que necesito, haciendo RETURN()
+
+Igual este se exportara.este solo sirve para mostrar visualmente sin estado ni cilo de vida.
+
+P R E S E N  T A C I O N A L  component:
+Esta tambien esta dentro de la categoria de stateless, pero este 
+va a hacer un RETURN EXPLICITO osea, no cesito llamar al return y encapsular entre 
+parecentesis, se puede enviar directamente.
+igual se exporta.
+Solo usar para una parte muy particular de html,  que n otraern logica.

@@ -1,0 +1,47 @@
+asi como las funciones en js, recibien parametros, nosotros podemos pasarle 
+PROPIEDADES  a nuestros componentes, no importa si son de tipo clase, o si son solo presentacionales.
+son solo de LECTURA.
+si en algun momento quieres modificarlas o cambiarlas, se deben de 
+INSTANCIAR en una nueva variable.
+
+vamos a pasar los propiedades en el parametro, en este caso las esta recibiendo.
+en el texto, en las llaves( que indican que trabajamos con js) vamos a indicar 
+que lo vamos a pasar por PROPIEDADES 
+de esta forma, el elemento solo va a hacer render del elemento que 
+reciba por propiedad.
+        <button type="button">{props.text}</button>
+
+para poder verlo en navegador, debemos incertar en index.js
+
+estoy mandando texto, desde donde estoy inicinado mi componente.
+como parametro en funcion vamos a llamar a esa prop que nombramos y la 
+pasamos como propiedad de nuestra etiqueta. poniendo el nombre como pusimos en el componente,
+y pasandole despues de igual entre comillas, la cadena que queremos pasarle.
+
+entonces: 
+FORMA 1-----
+en componenete, voy a pasar este 'parametro', lo nombraré como yo quiera, 
+para que, al momento de llamar al componente, pueda llamarlo, con este mismo 
+nombre que yo le di, dentro voy a escribir lo que quiero que valga, ejemplo: 
+
+en componente:
+<button type="button">{props.text}</button>
+
+al llamarlo: 
+<Button text="hello botoncito,click me"></Button>
+
+FORMA 2----- DESTRUCTURANDO:
+
+voy a extraer el valor de "text"( o cual sea la forma aque nombraste) de las 
+PROPS.
+
+Al crearlo, solo voy a llamar a la prop (como yo la haya nombrado) y la voy a llamar , a esta 
+VARIABLE, que la traere de la destructuración que yo debo hacer.
+asi puedo guardar cada una de las variable/propiedaes que necesite.
+
+en el componente:
+arriba:
+a) const { text } = props;
+b) const { text, text2, color } = props;
+dentro de return: 
+<Button type="button">{text}</Button> 

@@ -1,0 +1,18 @@
+cada componente pasa por fases que se nominan cilos de vida.
+proceso que hace react en cada componente.
+
+pasan por un MONTAJE /ACTUALIZACIÓN / DESMONTAJE y MANEJO DE ERRORES
+
+MONTAJE:
+En esta fase se CREA el componente junto con la logica y los componentes internos
+luego se INSERTA en el DOM.
+
+ACTUALIZACIÓN:
+en esta fse esta atenta de CAMBIOS que pueden venir de cambios en STATE o en PROPS
+Esto en consecuencia de REALIZAR UNA ACCIÓN dentro de un componente.
+
+DESMONTAJE:
+aqui el componente "MUERE" cuando no necesitamos componente en app, podemos usar este ciclo,
+asi eliminar el componente de la representación aque tiene en el DOM.
+
+

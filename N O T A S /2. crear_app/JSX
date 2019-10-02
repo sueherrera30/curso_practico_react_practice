@@ -1,0 +1,33 @@
+Sintaxis que mezcla html con js, 
+es la forma en la que js hace que mezclen ambos.
+y no aislarlo, hacer que el componente peuda vivir con ambos.
+
+podemos llamar archivos de dos maneras ,js o jsx.
+
+react utiliza clase, pero n ose va a nombrar como se hace 
+normalmente con class = "" ...  ya que es un palabra reservada dentro de JS.
+Por ello usaremos ---  className ---
+
+ al ser compomnente stateless se le podra asignar logica de este lado.
+ con return vamos a mandar html.
+
+ PARA INDICAR QUE L OQUE escribimos es de js, usaremos llaves para escribir codigo.
+  
+  importante: cada que se abre una etiqueta se debe cerrar!
+
+  podemos hacer dentro validaciones através de ifs, esto debe estar dentro de parentesis.
+  
+  1)las validaciones las podemos hacer con ternario: 
+  dando un retorno falso:
+  { isTrue ? <h4>Esto es de a devis</h4>: <h5>jumm, no lo se ricky parece falso.</h5>}
+
+dando solo retorno veradero:
+  2) && -> quiere decir: SI ES VERDADERO, MUESTRAME ESTE BLOQUE, si no, no pasa nada de la parte contraria.
+
+L I G A R COMPOMNENTE CON NAVEGADOR:
+
+esto sera en INDEX.JS, ahi esta TODA LA CONFIGURACIÓN DE NUESTRO PROYECTO.
+SE IMPORTAN ELEMENTOS Y  ahi vamos a importar nuestros componentes, 
+
+al impirtar, no es necesario poner extension de archivo, ya que haria referencia a la funciòn pero 
+igual se puede poner.
