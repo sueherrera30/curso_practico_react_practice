@@ -12,12 +12,19 @@ deben escribirse con  M A Y U S C U L A  la primera letra.
 
 -------- import React, { Component } from 'react' -------
 
+
 este comoponente stateful, sera una clase, lo extendemos de
 Component (que importamos arriba) Y este vivirá la logica, 
 los ciclos de vida de nuestra app, los estados y los eventos.
 
 dentro estará RENDER vamos a empujar al html que vamos 
 a empujar a nuestra app.
+podemos declarar muestro componente de dos formas haciendo referencia a componet:
+
+a) import React, { Component } from 'react';
+  class Stateful extends Component {....}
+  
+b) class Button extends React.Component {....}
 
 este componente tiene acceso a un CONSTRUCTOR que puede 
 recibir las PROPS como parametro, ahi se van a inicializar 
@@ -41,6 +48,7 @@ No depende de tener un estado o un cilo de vida, sino que solo va a presentar
 la logica, son un poquito mas utilizados, trabajan con pa larte funcional,
 son funciones y nos permite enfocarnos solo en un funcionalidad.
 aqui no se va a importar a component, no se necesita.
+
 
 usaremos funciones para crearlos, si le queremos dar nombre, vamos a guardar una function 
 arrow dentro de una constante.

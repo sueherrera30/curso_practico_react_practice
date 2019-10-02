@@ -15,4 +15,45 @@ DESMONTAJE:
 aqui el componente "MUERE" cuando no necesitamos componente en app, podemos usar este ciclo,
 asi eliminar el componente de la representación aque tiene en el DOM.
 
+MONTADO: _____________
+constructor()
+promer metodo que hace llamado ahi se inicializan los metodos controladores, 
+eventos de estado.
+getDerivedStateFromProps() 
+se llama antes de presentarse en el dom nos permite actializar estado interno de respuesta a un cambio 
+el las propiedades, de cuidado.
 
+render()
+smentodo para representar elementos en el dom. aqui su logica, usamos jsx.
+
+ComponentDidMopunted() 
+Se llama luego que se monto el dom, aqui trabajamos ocn eventos que interactuen 
+con nuestro componente.
+
+ACTUALIZACION: _____________
+getDerivedStateFromProps() primero en montarse en actualizacion 
+funciona igual que arriba.
+
+shouldComponentUpdate() 
+Aqui se puede controlar fase de actualización podemos devolver un valor entre verdadero y falso,
+es utilizado para otimización.
+
+render() 
+se llama al presentar cambios en el dom.
+
+componentDidMounted()
+se llama inmendiato se actualiza componente y recibe como argumentos propuedades 
+y el estado es en donde podemos manejar nuestro componente.
+
+DESMONTADO______________
+componentWillUnmount()
+se llama junsto antes de que el componente sea destruido o eliminado del dom. 
+
+MANEJO DE ERRORES______________
+getdRIVENsTATEfromError8)
+
+una vez se lanza un error este el el que se llama primero , recibe el error com oargumento 
+y cualquier valor devuelto en este metodo es utiliado para actualizar el estado del componente.
+
+componentdidCatch()
+SE lanza despues de que un error pasa como argumento el error y la info representada sobre el error

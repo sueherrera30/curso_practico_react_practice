@@ -1,0 +1,44 @@
+El estado es un OBJETO al cual e podemos definir variables que 
+pueden ser de tipo string, numero , bool. o funciones, etc.
+
+podremos ingresar a nuestro estado en el momento en el que se inicializa.
+
+al llamar poder hacerlo de dos maneras: 
+
+con this o destructurarlo: 
+a)  state = {
+           count: 0,
+   }
+   render(){
+           return(
+                <div>
+                      <h1>Manzanitas:{this.state.count}</h1>
+                </div>
+           );
+   }    
+}
+
+b)   const {count} = this.state;
+al llamarlo :  <h1>Manzanitas:{count}</h1>
+
+EVENTOS------
+
+Podemos manipular acciones dentro de nuestro codigo , click, scroll etc.
+aqui para usarlos la unica regla es : USAR CAMEL CASE 
+
+En HTML usariamos<: onClick.
+
+en el handle en este ejemplo tenemos un elemento que actualiza nuestro estado.
+por ahi pasaremos la actualización que necesitamos.
+
+  this.setState({
+                   count: this.state.count + 1,
+           })
+
+aqui, pasamos por parametro de setstate, un objeto que modificara la cuenta. 
+se llama a la cuenta cuandole 1.
+
+PARA PASAR EL EVENTO: 
+se va a poner le nombre igual a la funcion. como si fuera una propiedad : 
+
+ <button type="button" onClick={this.handleClick}>

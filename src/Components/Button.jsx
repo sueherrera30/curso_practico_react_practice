@@ -1,17 +1,33 @@
 import React from 'react';
-// vamos a pasar los propiedades en el parametro, 
-// en este caso las esta recibiendo.
-const Button = props  => {
-        const { name } = props;
-// aqui se pondrá todo lo que se manejará con jsx.
-return(
-        <div>
-                <button type="button">{props.text}</button>
-                <button type="button">{name}</button>
-        </div>
-) 
-}
 
-// para poder verlo en navegador, debemos incertar en index.js
+class Button extends React.Component{
+//    constructor(props){
+//         super(props);
+//         this.state = {
+//           count: 0,      
+//         }
+//    }
+   state = {
+           count: 0,
+   }
+   handleClick = () => {
+           this.setState({
+                   count: this.state.count + 1,
+           })
+   }
+   render(){
+           const {count} = this.state;
+           return(
+                <div>
+                      {/* <h1>Manzanitas:{this.state.count}</h1> */}
+                      <h1>Manzanitas:{count}</h1>
+                      <button type="button" onClick={this.handleClick}>
+                              click  :) 
+                       </button>
+
+                </div>
+           );
+   }    
+}
 
 export default Button;
