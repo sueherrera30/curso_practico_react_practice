@@ -1,0 +1,16 @@
+BABEL: 
+Herramienta para poder transformsr js moderno y poderlo transformar en 
+js que pueda ser leido por todos los mavegadores.
+
+.babelrc ---> archivo dodne configuraremos babel
+incia con punto significa OCULTAR  este archivo.
+ESTE DEBE VIVIR en raiz del proyecto, objeto con confiugraciones propias.
+
+babel-core -> herramientas para transformar en codigo moderno de ecmascript6
+
+babel-loader _> trabaja con webpack y los preset que nos van a ayudar a entender y leer nuestro codigo.
+
+"@babel/preset-env",
+"@babel/preset-react" 
+uno ns va a yudar a trabajar con ecmascript 6
+y el otro como reatc y js.

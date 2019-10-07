@@ -1,0 +1,48 @@
+preparar entorno,
+inicializar git.
+
+con:
+----- git init ------ 
+
+despues inicializar proyecto: poner package.json:
+
+------ npm init -y ------
+
+-y -> somboliza que se va a precnfigurar este doc.
+crea automaticamente.
+
+ESTRUCTURA DE ORGANIZACIÓN DE ELEMENTOS: 
+
+ahi vivirá todo el codigo que hagamos: SRC
+dentro: 
+
+---Components-----
+
+ahi archivos proncipales:
+
+
+archios y dlementos que vayamos a publicar cuando se mande
+a producción: PUBLIC
+---- index.html ------
+
+INSTALAR REACT EN PROYECTO: 
+
+------ npm install  react react-dom ------
+(verificar vulnerabilidades)
+
+ahora vemos package.log ---> permite manejar el VERSDIONADO 
+de nuestros paquetes.
+
+package.json ---> tenemos las dependencias. 
+
+'''''''''''''''' INDEX.js
+punto de entrada, primer archivo que sera detectado y donde se trabajara la configuración de react.
+este  vive en la raiz de source.
+configuracion:
+1.- iportar react 
+2.- tambien react dom para empujar todo l oque hagamos al navegdor.
+ usaremos react dom para pasar el componente principal.
+ este atravez del metdo render,render va a recibir dos parametros: 1. el COMPONENTE , 2. A DONDE VAMOS A EMPUJAR ESTE COMPONENTE.
+ 
+ 
+ ------   npm install @babel/core babel-loader @babel/preset-env @babel/preset-react --save -dev  -------

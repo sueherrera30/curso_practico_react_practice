@@ -1,0 +1,16 @@
+hwrramienta que ayuda a manejar proyecto ede manera local o publica.
+
+se encarga de todos los archivos los agrupa y los ordena
+
+----npm install webpack webpack-cli html-webpack-plugin html-loader --save-dev---
+
+guardado configuracon en raiz, con archibo : 
+webpack.config.js
+necesitamos añadir path que es un modulo que existe ya en node.
+
+instansear plugin que nosotros instalamos:
+
+
+paquete que nos permitira ver de forma real que esta pasando con nuestro proyecto:
+
+------------ npm install webpack-dev-server --save-dev --------------------------

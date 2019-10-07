@@ -31,3 +31,11 @@ SE IMPORTAN ELEMENTOS Y  ahi vamos a importar nuestros componentes,
 
 al impirtar, no es necesario poner extension de archivo, ya que haria referencia a la funciòn pero 
 igual se puede poner.
+
+
+block body : 
+esta esperando que escriba palabra return 
+
+
+() :
+esta implicito ese return// no desta tan padre por que le dices como tu deci aque vas a retuornar 

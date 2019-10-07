@@ -1,0 +1,6 @@
+TENER UN COMPONENTE CENTRAL ,DODNE EMPUJAREMOS A TODOS LOS COMPONENTES, 
+APP SE GUARDARÁ EN  UNA NUEVA CARPETW QUE SE LLAME CONTAINERS 
+
+encapsulamos en div, para poder agregar hijos, estos en lugar de llamarlos por props se llaman por children 
+ESTE SE  VA A LLAMAR ENTRE PARENTESIS y arriba se pasa como paramentro dentro de parentesis.
+asi:

@@ -1,0 +1,45 @@
+Se puede ya hacer realidad virtual y desarrollo de apps.
+
+componentes -> elementos que se pueden hacer en react.
+STATELESS -> COMPONENTE FUNCIONAL - no trabaja nada con estados,
+solo se pueden pasar props y regresar elemertos, aqui no hay control de ciclo de vida del componente
+
+presentacional_> componente tonto, solo pasa cosas.
+
+STATEFUL -> Tenemos control de todo el ciclo de vida.
+
+cuando usarlos? tip, tratar de ahcer todo stateless.
+stafull solo cuando sea necesario,por ejemplo, peticiones a api,-
+en este podemos modificar ciclos, por ejemplo en peticion en componentWillMount(este ya se va a ir)
+INCIALIZACION
+MONTAJE 
+ACTUALIZACION 
+DESMONTAJE 
+
+JSX ->  Sugar sintaxis uso de html.
+
+babel -> forma de traducir nuestro codigo a codigo viejito, y asi poder ser usado en otros navegadores.
+webpack -Z nos ayuda a optimizar, empaquetando, podemos tenr loaders.
+
+
+HOOKS:
+NO NOS PODEMOS pelear con el contexto, con this.
+
+USESTATE sustituye la parte de setState,
+USEEFFECT tiene tres ciclis, componentDidMount, .....
+LO LLAMANAMOS cuando hay un efecto secundario en las acciones que hacemos. ejemplo hacer una segunda llamada 
+en ricky and morty.
+
+destructuracion, del estado de usestate.
+
+---------------------
+1.- lISTA  priorizada (ejemplo, realizar pruebas unitarias)
+2.- sprints cada 7 dia, sabada ultimo list para mostrar avances.
+3.- un dia antes o dos antes de sprint hacer retrospectiva, que podemos mejorar, pque puede funcionar
+4.- planear el siguiente ,peor error es retacar con muchas tareas y no completarlas.
+junta en media semana,hacer preguntas.
+
+hacer dailys, comunicarse, debes asegurarte que se logre tu tarea,
+asignar una sola, y hacer tareas, story(evaluada en puntos) -> tareas(puntuacion en tirmpo) 
+usar monetores, trello, monday etc.
+compartir repo con fechas o entregables.--> indentificar tareas importantes y puntos especificos, metas,que se vea de esta manera en cierto tiempo. 
